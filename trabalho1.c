@@ -2,5 +2,6 @@
 int main () {
     printf ("Fernando"), ("idade: 19");
     printf ("Erick Banhos");
-    return;
+    printf ("Arthur"), ("idade:18");
+    return 0;
 }
