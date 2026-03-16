@@ -1,9 +1,20 @@
 #include <stdio.h>
+
 int main () {
-    printf ("Fernando"), ("idade: 19"), ("RM 570228");
-    printf ("Erick Banhos"), ("idade: 20"), ("RM 572131");
-    printf ("Arthur Maziviero"), ("Idade 18"),("RM 573928");
-    printf ("Felipe Gallo"), ("idade: 18"), ("RM 569680");
-    printf ("Roberson Junior"), ("idade 19"), ("RM 573031");
+    printf ("Nome: Fernando \n");
+    printf ("Idade: 19 \n"); 
+    printf ("RM: 570228 \n \n");
+    printf ("Nome: Erick Banhos \n"); 
+    printf ("Idade: 20 \n");
+    printf ("RM: 572131 \n \n");
+    printf ("Arthur Maziviero \n");
+    printf ("Idade: 18 \n");
+    printf ("RM: 573928 \n \n");
+    printf ("Felipe Gallo \n"); 
+    printf ("Idade: 18 \n");
+    printf ("RM: 569680 \n \n");
+    printf ("Roberson Junior \n"); 
+    printf ("Idade: 19 \n");
+    printf ("RM: 573031 \n \n");
     return 0;
 }
