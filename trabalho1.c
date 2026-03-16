@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main () {
-    printf ("Fernando"), ("idade: 19");
+    printf ("Fernando"), ("idade: 19"), ("RM 570228");
     printf ("Erick Banhos");
-    printf ("Arthur"), ("idade:18");
-    printf("RM: 573928");
-    
+    printf ("Arthur Maziviero"), ("Idade 18"),("RM 573928");
+
+   
     return 0;
 }
