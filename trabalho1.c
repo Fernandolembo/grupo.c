@@ -1,5 +1,5 @@
 #include <stdio.h>
 int main () {
-    printf ("Fernando");
+    printf ("Fernando"), ("idade: 19");
     return;
 }
