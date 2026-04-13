@@ -1,14 +1,22 @@
 # include<stdio.h>
 
-int main(){
-    int opcao, presenca;
-    float nota_1, nota_2, media;
+void menu(){
     printf("------MENU------\n");
     printf("1 - MEDIA DO ALUNO\n");
     printf("2 - PRESENCA DO ALUNO\n");
     printf("Digite a opcao desejada: ");
+}
+
+float media_aritmetica (float nota_1, float nota_2){
+    return (nota_1 + nota_2)/2;
+}
+
+int main(){
+    int opcao, presenca;
+    float nota_1, nota_2, media;
+
+    menu();
     scanf("%d", &opcao);
-    
     switch(opcao){
         case 1: 
         printf("\n ---MEDIA DO ALUNO---\n");
@@ -16,8 +24,8 @@ int main(){
         scanf("%f", &nota_1);
         printf("Digite sua segunda nota: ");
         scanf("%f", &nota_2);
-        media = (nota_1 + nota_2)/2; 
-        printf("A media final do aluno é: %.2f", media);
+        media = media_aritmetica (nota_1, nota_2); // substituir essa equação
+        printf("A media final do aluno: %.2f", media);
         break;
 
         case 2: 
